@@ -6,7 +6,10 @@
 import scrapy
 
 
-class Myproject01Item(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
+class WangyiItem(scrapy.Item):
+    name = scrapy.Field()
+    workPlaceNameList = scrapy.Field()
+    firstDepName = scrapy.Field()
+    recruitNum = scrapy.Field()
+
     pass
