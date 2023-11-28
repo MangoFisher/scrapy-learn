@@ -11,4 +11,4 @@
 __author__ = 'yi'
 from scrapy.cmdline import execute
 
-execute('scrapy crawl wangyihr'.split())
+execute('scrapy crawl tencent'.split())
